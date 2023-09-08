@@ -38,15 +38,15 @@
 ### Installation
 
 1. Clone the repository:
-git clone https://github.com/yourusername/Smart-Google-Search.git
+git clone https://github.com/bisnuray/smart-google-search
 
 2. Change the working directory:
-cd Smart-Google-Search
+cd search.py
 
-3. Update the `main.py` file with your [Telegram bot token], [Google API Key], and [Custom Search Engine ID].
+4. Update the `search.py` file with your [Telegram bot token], [Google API Key], and [Custom Search Engine ID].
 
-4. Run the bot:
-python main.py
+5. Run the bot:
+python search.py
 
 
 ## 📚 Usage
