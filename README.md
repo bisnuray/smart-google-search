@@ -1,2 +1,69 @@
-# smart-google-search
-Smart Google Search is a Telegram bot designed to provide users with instant search results directly from Google. Be it textual content or images, get your answers swiftly and within the Telegram interface.
+<h1 align="center">🔍 Smart Google Search Telegram Bot 🤖</h1>
+
+<p align="center">
+  <em>Smart Google Search is a cutting-edge Telegram bot that leverages the power of Google's Custom Search API to deliver swift and precise search results directly within Telegram. Dive into textual content or explore images, all in one place. </em>
+</p>
+
+<hr>
+
+## 🌟 Features
+
+- 🌐 Instant access to Google's vast world of information.
+- 🖼️ Explore visual content with the Image Search feature.
+- 🕐 Efficient cooldown mechanism to ensure fair usage.
+- 🎛️ Intuitive navigation through the search results.
+- 👑 Admin privileges for overriding limitations.
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Python 3.6 or higher.
+- Libraries: aiogram, requests.
+- A Telegram bot token.
+- Google API Key and Custom Search Engine ID.
+
+### How to obtain the Google API Key and Custom Search Engine ID:
+
+1. **Google API Key**:
+   - Visit the [Google Cloud Console](https://console.cloud.google.com/).
+   - Create a new project.
+   - Navigate to `Credentials` and click on `Create Credentials`. Select `API Key` from the dropdown. Your new API key will appear. Copy and save it securely.
+
+2. **Google Custom Search Engine ID**:
+   - Go to [Google Custom Search](https://cse.google.com/cse/).
+   - Click on `New Search Engine` and fill out the form to create a custom search engine. Under 'Sites to Search', you can use `www.google.com` to search the entire web.
+   - After creating, the Custom Search Engine ID (`cx` value) will be visible in the 'Basics' tab. Copy this ID.
+
+### Installation
+
+1. Clone the repository:
+git clone https://github.com/yourusername/Smart-Google-Search.git
+
+2. Change the working directory:
+cd Smart-Google-Search
+
+3. Update the `main.py` file with your [Telegram bot token], [Google API Key], and [Custom Search Engine ID].
+
+4. Run the bot:
+python main.py
+
+
+## 📚 Usage
+
+1. Start a chat with your bot on Telegram.
+2. To search for text: `/search <query>`.
+3. To search for images: `/image <query>`.
+4. The bot will promptly display the results.
+
+## 👨‍💻 Author
+
+**Smart Bisnu**
+
+- [Telegram](https://t.me/SmartBisnuBio)
+
+## 📜 License
+
+This project is licensed under the [MIT License] - see the [LICENSE](https://github.com/yourusername/Smart-Google-Search/blob/main/LICENSE) file for details.
+
+
