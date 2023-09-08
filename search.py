@@ -1,3 +1,8 @@
+"""
+Author: Bisnu Ray
+Telegram: https://t.me/SmartBisnuBio
+"""
+
 import os
 import requests
 import time
