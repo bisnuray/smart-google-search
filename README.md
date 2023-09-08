@@ -56,14 +56,13 @@ python main.py
 3. To search for images: `/image <query>`.
 4. The bot will promptly display the results.
 
-## 👨‍💻 Author
+## Author
 
-**Smart Bisnu**
+- Name: Bisnu Ray
+- Telegram: [@SmartBisnuBio](https://t.me/SmartBisnuBio)
 
-- [Telegram](https://t.me/SmartBisnuBio)
+Feel free to reach out if you have any questions or feedback.
 
-## 📜 License
-
-This project is licensed under the [MIT License] - see the [LICENSE](https://github.com/yourusername/Smart-Google-Search/blob/main/LICENSE) file for details.
+Please note that the README assumes you have created a Telegram bot and obtained the API token from the BotFather. Additionally, it provides instructions on how to install and run the bot. You may need to update the installation and execution steps if necessary.
 
 
